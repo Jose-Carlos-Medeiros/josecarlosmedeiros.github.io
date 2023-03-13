@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática</title> <!-- Título aba do navegador-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">    
+    <div class="child" style=width:12.5%;> 
+        <img src="WhatsApp Image 2023-03-11 at 18.49.01.jpeg" width="145px" alt="Foto professor">
+    </div> 
+
+    <div class="child"> 
+        <header style=padding:2.5%; >
+            &#8747;MATEMÁTICA&#8747;
+            <p style="font-size:30px; line-height: 0%;">Prof: José Carlos Medeiros</p> 
+        </header>   
+    </div>     
+</div>
+
+<h1> Calculadora de uma equação do 2° grau</h1>
+
+<p style="text-align:justify;background-color: rgb(193, 193, 214); text-indent: 3%; margin: 1%;">
+    Toda equação na forma ax<sup>2</sup>+bx+c = 0 com {a, b, c}&#8834;IR e a &#8800; 0, é denominada equação do segundo grau.Onde a, b e c são os coeficientes da equação e x é a incógnita.
+</p>
+
+<p style="margin:1%;">Exemplos:<br>
+    a) Na equação 2x<sup>2</sup> + 5x - 2 = 0, temos a = 2, b = 5 e c = - 2.<br>
+    b) Na equação -3x<sup>2</sup> - 2x = 0, temos a = - 3 , b = - 2 e c = 0.<br>
+    c) Na equação 7x<sup>2</sup> - 3 = 0, temos a = 7, b = 0 e c = - 3.
+</p>
+<br>
+<h1>Fórmula resolutiva de uma equação do 2° grau.</h1>
+  
+    <img src="equacao.PNG" alt="Fórmula";>
+    <br>
+ <h1>Calculadora</h1>
+<br>
+<section>
+    <form action="">
+        
+        <div class="campos">
+            <input type="number" name="num1" id="num1" placeholder="Valor coeficiente a">
+        </div>
+
+        <div class="campos" >
+            <input type="number" name="num2" id="num2" placeholder="Valor coeficiente b">
+        </div>
+       
+       <div class="campos">
+           <input type="number" name="num3" id="num3" placeholder="Valor coeficiente c">
+       </div>
+
+       <div class="buttons" >
+        <button id="calcular"> Calcular </button>
+        <button id="limpar"> Limpar </button>
+       </div>
+            
+       <div id="resultado" style="text-align: end">  Resultado  </div>
+   
+    </form>
+</section>
+
+
+     <script src="script.js">
+ 
+    </script>
+</body>
+</html>
